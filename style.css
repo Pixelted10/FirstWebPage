@@ -77,7 +77,7 @@ Layout
 }
 
 .page_container {
-    max-width: 1170px;
+    max-width: 90%;
     margin: 0 auto;
     width: 100%;
     display: table;
