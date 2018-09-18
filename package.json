@@ -1,0 +1,19 @@
+{
+  "name": "lewis-cattle-website",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamcharmer/lewis-cattle-website.git"
+  },
+  "author": "Lewis Cattle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liamcharmer/lewis-cattle-website/issues"
+  },
+  "homepage": "https://github.com/liamcharmer/lewis-cattle-website#readme"
+}

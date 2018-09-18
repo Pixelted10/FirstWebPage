@@ -1,0 +1,483 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+===============================
+clearfix
+===============================
+*/
+
+.cf:before .cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    clear: both;
+    *zoom: 1;
+}
+
+/*
+===============================
+Layout
+===============================
+*/
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.page_container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    display: table;
+    padding: 15px 0 15px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+
+/*
+===============================
+Navigation
+===============================
+*/
+
+.navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #760000;
+    font-size: 1.25em;
+}
+
+.links {
+    float: right;
+    padding: 10px 10px 5px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navigation a {
+    margin-left: 10px;
+}
+
+/*
+===============================
+Front Page
+===============================
+*/
+
+.background {
+    height: 100%;
+    background-image: url(images/background3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    min-height: 100vh;
+    color: #400000;
+}
+
+.logo {
+    padding-top: 200px;
+    text-align: center;
+    color: #400000;
+    font-size: 6em;
+}
+
+.slogan {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.learn {
+    text-align: center;
+    font-size: 2.5em;
+    border: 2px solid #400000;
+    background-color: #400000;
+    border-radius: 10px;
+    width: 6em;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+
+/*
+===============================
+About Page
+===============================
+*/
+
+.about {
+    color: #008080;
+    background-color: #004040;
+    padding-bottom: 10px;
+}
+
+.about img {
+    width: 27%;
+    float: left;
+    margin-top: 70px;
+    margin-right: 5%;
+    border-radius: 20%;
+}
+
+.bigger_text {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #000;
+}
+
+.description {
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.about_button {
+    display: table;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.skill_button, .contact_button {
+    text-align: center;
+    display: inline-block;
+    font-size: 2.5em;
+    border: 2px solid #008080;
+    background-color: #008080;
+    border-radius: 10px;
+    height: 45px;
+    width: 6em;
+    padding-top: 5px;
+}
+
+.contact_button {
+    margin-left: 20px;
+}
+
+/*
+===============================
+Skills
+===============================
+*/
+
+.skills {
+    background-color: #760000;
+    display: table;
+    width: 100%;
+}
+
+.skills p {
+    font-size: 1.5em;
+    color: #400000;
+}
+
+.skills h1 {
+    color: #400000;
+}
+
+.skills h3 {
+    color: #400000;
+    display: inline-block;
+}
+
+.skill_title {
+    padding-top: 30px;
+}
+
+.skills_container {
+    display: table;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.container {
+    width: 50%;
+    float: left;
+    padding: 15px 30px 15px 0px;
+}
+
+.skill_bar {
+    background-color: #008080;
+    border-radius: 10px;
+}
+
+.bar {
+    text-align: right;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.forty {
+    width: 40%;
+    background-color: #004040;
+}
+
+.fifty {
+    width: 50%;
+    background-color: #004040;
+}
+
+.sixty {
+    width: 60%;
+    background-color: #004040;
+}
+
+.seventy {
+    width: 70%;
+    background-color: #004040;
+}
+
+.eighty {
+    width: 80%;
+    background-color: #004040;
+}
+
+/*
+===============================
+Contact
+===============================
+*/
+
+.contact {
+    background-color: #004040;
+    color: #008080;
+}
+
+.contact h1 {
+    padding: 15px 0;
+}
+
+.contact input, .contact textarea {
+    width: 40%;
+    margin: 5px 0;
+    padding: 10px 5px;
+}
+
+.copyright {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.envelope {
+    font-size: 30em;
+    float: right;
+    margin-right: 12%;
+}
+
+/*
+===============================
+Custom Styles
+===============================
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+h1 {
+    font-size: 6.67em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+small {
+    text-transform: uppercase;
+    font-family: 'lato', sans-serif;
+    font-weight: 500;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+textarea {
+    font-family: 'Lato', sans-serif;
+}
+
+/*
+===============================
+Links
+===============================
+*/
+
+a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #400000;
+}
+
+.learn a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #760000;
+}
+
+.skill_button a, .contact_button a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #004040;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/*
+===============================
+Responsive
+===============================
+*/
+
+@media screen and (max-width: 768px) {
+    .mobile-collapse {
+        width: auto;
+        float: none;
+        margin-right: 10;
+    }
+    .grid {
+        width: 100%;
+    }
+    .logo {
+        padding-top: 20%
+    }
+    .background {
+        background-image: none;
+        background-color: #760000;
+    }
+    .learn, .contact_button, .skill_button {
+        display: block;
+        margin: 20px 0 0 5%;
+        width: 90%;
+    }
+    .about_button {
+        width: 90%;
+    }
+    .description {
+        padding: 5% 5% 0 5%;
+    }
+    .container, .skill_title {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contact h1 {
+        margin-left: 5%;
+    }
+    .contact input, .contact textarea {
+        width: 90%;
+        margin-left: 5%;
+    }
+    p {
+        font-size: 2.1em;
+    }
+    small {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .envelope {
+        display: none;
+    }
+    .description {
+        width: 100%;
+    }
+    .about img {
+        display: none;
+    }
+    .contact input, .contact textarea {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .description {
+        width: 100%;
+    }
+    p {
+        font-size: 4em;
+    }
+}
